@@ -1,0 +1,65 @@
+# Composer dependencies
+/vendor/
+/composer.lock
+
+# Node.js dependencies
+/node_modules/
+/package-lock.json
+/yarn.lock
+
+# Local environment configuration files
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+
+# Apache server configuration
+.htaccess
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE or editor specific files
+.vscode/
+/.idea/
+/nbproject/
+/*.sublime-project
+/*.sublime-workspace
+
+# PHPStorm metadata
+/.phpstorm.meta.php
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.swp
+*.log
+
+# Windows specific files
+*.lnk
+
+# MySQL or database related files
+*.sql
+*.sql.gz
+*.db
+*.sqlite
+
+# Debugging or error logs
+error_log
+*.log
+
+# User uploads (optional)
+# If you store user-uploaded files under a specific directory, add it here.
+# /uploads/
+
+# PHPUnit
+.phpunit.result.cache
+
+# Cache and session files
+/sessions/
+/cache/
+
+# Ignore PHPMyAdmin directories if used
+/phpmyadmin/
